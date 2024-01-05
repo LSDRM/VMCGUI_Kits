@@ -1,7 +1,8 @@
 # REQUIRED
 import sys
-sys.path.append('..')
-sys.path.append('/libsForKits')
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/..')
+sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/libsForKits')
 from VMCGUI import *
 from datetime import datetime
 
@@ -24,7 +25,7 @@ class KitWindow(MainWindow):
     def __init__(self, *args, **kwargs):
         super(KitWindow, self).__init__(*args, **kwargs)
 
-        self.setWindowTitle("VMCGUI - Second Kit")
+        self.setWindowTitle("VMCGUI - DualPressure / Thermocouple")
 
         # REQUIRED
         self.prefix = "Kit2"

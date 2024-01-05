@@ -1,0 +1,195 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 2-1445057-3-SamacSys_Parts-DualPressure_V2-rescue
+#
+DEF 2-1445057-3-SamacSys_Parts-DualPressure_V2-rescue J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "2-1445057-3-SamacSys_Parts-DualPressure_V2-rescue" 750 200 50 H V L CNN
+F2 "214450573" 750 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773458-4_MICRO_MATE_N_LOK&DocType=Data+Sheet&DocLang=English&PartCntxt=2-1445057-3&DocFormat=pdf" 750 0 50 H I L CNN
+F4 "Connector Header Surface Mount, Right Angle 3 position 0.118\" (3.00mm)" 750 -100 50 H I L CNN "Description"
+F5 "5.67" 750 -200 50 H I L CNN "Height"
+F6 "571-2-1445057-3" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/2-1445057-3?qs=RfHrfbgRAL0JwvXbugDVow%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "2-1445057-3" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+X 1 1 900 -200 200 L 50 50 0 0 P
+X 2 2 900 -100 200 L 50 50 0 0 P
+X 3 3 900 0 200 L 50 50 0 0 P
+X MP1 MP1 0 -100 200 R 50 50 0 0 P
+X MP2 MP2 0 0 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ADS122U04IPW-SamacSys_Parts-DualPressure_V2-rescue
+#
+DEF ADS122U04IPW-SamacSys_Parts-DualPressure_V2-rescue IC 0 30 Y Y 1 F N
+F0 "IC" 1450 300 50 H V L CNN
+F1 "ADS122U04IPW-SamacSys_Parts-DualPressure_V2-rescue" 1450 200 50 H V L CNN
+F2 "SOP65P640X120-16N" 1450 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ads122u04.pdf" 1450 0 50 H I L CNN
+F4 "24-bit, 2-kSPS, 4-ch, low-power, small-size delta-sigma ADC w/ PGA, VREF, 2x IDACs & UART interface" 1450 -100 50 H I L CNN "Description"
+F5 "1.2" 1450 -200 50 H I L CNN "Height"
+F6 "595-ADS122U04IPW" 1450 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS122U04IPW?qs=gt1LBUVyoHlLONlNwdsm%2Fg%3D%3D" 1450 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1450 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ADS122U04IPW" 1450 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1400 100 1400 -800 200 -800 200 100 N
+X GPIO1 1 0 0 200 R 50 50 0 0 P
+X AIN1 10 1600 -600 200 L 50 50 0 0 P
+X AIN0 11 1600 -500 200 L 50 50 0 0 P
+X AVDD 12 1600 -400 200 L 50 50 0 0 P
+X DVDD 13 1600 -300 200 L 50 50 0 0 P
+X GPIO2/~DRDY 14 1600 -200 200 L 50 50 0 0 P
+X TX 15 1600 -100 200 L 50 50 0 0 P
+X RX 16 1600 0 200 L 50 50 0 0 P
+X GPIO0 2 0 -100 200 R 50 50 0 0 P
+X ~RESET 3 0 -200 200 R 50 50 0 0 P
+X DGND 4 0 -300 200 R 50 50 0 0 P
+X AVSS 5 0 -400 200 R 50 50 0 0 P
+X AIN3 6 0 -500 200 R 50 50 0 0 P
+X AIN2 7 0 -600 200 R 50 50 0 0 P
+X REFN 8 0 -700 200 R 50 50 0 0 P
+X REFP 9 1600 -700 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# AM-K-PCB-SamacSys_Parts-DualPressure_V2-rescue
+#
+DEF AM-K-PCB-SamacSys_Parts-DualPressure_V2-rescue J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "AM-K-PCB-SamacSys_Parts-DualPressure_V2-rescue" 750 200 50 H V L CNN
+F2 "AMKPCB" 750 100 50 H I L CNN
+F3 "" 750 0 50 H I L CNN
+F4 "SOCKET, K, ANSI, MINI, PCB; Gender:Socket; Thermocouple Type:K; Product Range:-; SVHC:No SVHC (15-Jan-2019); For Use With:K Type Thermocouples RoHS Compliant: Yes" 750 -100 50 H I L CNN "Description"
+F5 "8" 750 -200 50 H I L CNN "Height"
+F6 "LABFACILITY" 750 -500 50 H I L CNN "Manufacturer_Name"
+F7 "AM-K-PCB" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X MH1 MH1 900 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# AP7333-33SAG-7-SamacSys_Parts-DualPressure_V2-rescue
+#
+DEF AP7333-33SAG-7-SamacSys_Parts-DualPressure_V2-rescue IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "AP7333-33SAG-7-SamacSys_Parts-DualPressure_V2-rescue" 850 200 50 H V L CNN
+F2 "SOT96P240X135-3N" 850 100 50 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/AP7333.pdf" 850 0 50 H I L CNN
+F4 "LDO Regulator Pos 3.3V 0.3A 3Pin SOT23 Diodes Inc AP7333 AP7333-33SAG-7, Single Linear Voltage Regulator, 300mA 3.3 V, +/-2%, 3-Pin SOT-23" 850 -100 50 H I L CNN "Description"
+F5 "1.35" 850 -200 50 H I L CNN "Height"
+F6 "621-AP7333-33SAG-7" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP7333-33SAG-7?qs=vIZ3oKQCLxpWqm5zu2HqxA%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Diodes Inc." 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AP7333-33SAG-7" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -200 200 -200 200 100 N
+X IN 1 0 0 200 R 50 50 0 0 P
+X OUT 2 0 -100 200 R 50 50 0 0 P
+X GND 3 1000 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# LM2576D2TR4-5G-SamacSys_Parts-DualPressure_V2-rescue
+#
+DEF LM2576D2TR4-5G-SamacSys_Parts-DualPressure_V2-rescue IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "LM2576D2TR4-5G-SamacSys_Parts-DualPressure_V2-rescue" 1250 200 50 H V L CNN
+F2 "D2TSUFFIX-CASE936A-02-ISSUEC" 1250 100 50 H I L CNN
+F3 "" 1250 0 50 H I L CNN
+F4 "Voltage Regulators - Switching Regulators 5V 3A Buck PWM" 1250 -100 50 H I L CNN "Description"
+F5 "863-LM2576D2TR4-5G" 1250 -300 50 H I L CNN "Mouser Part Number"
+F6 "https://www.mouser.co.uk/ProductDetail/onsemi/LM2576D2TR4-5G?qs=2OtswVQKCOEvcMP8GU0oog%3D%3D" 1250 -400 50 H I L CNN "Mouser Price/Stock"
+F7 "onsemi" 1250 -500 50 H I L CNN "Manufacturer_Name"
+F8 "LM2576D2TR4-5G" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1200 100 1200 -300 200 -300 200 100 N
+X VIN 1 0 0 200 R 50 50 0 0 P
+X OUTPUT 2 0 -100 200 R 50 50 0 0 P
+X GROUND 3 0 -200 200 R 50 50 0 0 P
+X FEEDBACK 4 1400 0 200 L 50 50 0 0 P
+X ~ON~/OFF 5 1400 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# MAX3488EESA+-SamacSys-DualPressure_V2-rescue
+#
+DEF MAX3488EESA+-SamacSys-DualPressure_V2-rescue IC 0 30 Y Y 1 F N
+F0 "IC" 750 300 50 H V L CNN
+F1 "MAX3488EESA+-SamacSys-DualPressure_V2-rescue" 750 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 750 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-18/DSA-341145.pdf" 750 0 50 H I L CNN
+F4 "MAX3488EESA+, Line Transceiver, RS-485, RS-422 250 kbit/s Differential, 3  3.6 V, 8-Pin SOIC" 750 -100 50 H I L CNN "Description"
+F5 "1.75" 750 -200 50 H I L CNN "Height"
+F6 "700-MAX3488EESA" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX3488EESA%2b?qs=1THa7WoU59F3SgCz0WMn2A%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Maxim Integrated" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MAX3488EESA+" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -400 200 -400 200 100 N
+X VCC 1 0 0 200 R 50 50 0 0 W
+X RO 2 0 -100 200 R 50 50 0 0 O
+X DI 3 0 -200 200 R 50 50 0 0 I
+X GND 4 0 -300 200 R 50 50 0 0 W
+X Y 5 900 -300 200 L 50 50 0 0 O
+X Z 6 900 -200 200 L 50 50 0 0 O
+X B 7 900 -100 200 L 50 50 0 0 I
+X A 8 900 0 200 L 50 50 0 0 I
+ENDDRAW
+ENDDEF
+#
+# SBRT3U60SAF-13-SamacSys_Parts-DualPressure_V2-rescue
+#
+DEF SBRT3U60SAF-13-SamacSys_Parts-DualPressure_V2-rescue D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "SBRT3U60SAF-13-SamacSys_Parts-DualPressure_V2-rescue" 450 100 50 H V L CNN
+F2 "SODFL5226X110N" 450 0 50 H I L CNN
+F3 "https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0002833665/DIOD-S-A0002833531-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0" 450 -100 50 H I L CNN
+F4 "Rectifier Diode Super Barrier Rectifier 60V 3A 2-Pin SMAF T/R" 450 -200 50 H I L CNN "Description"
+F5 "1.1" 450 -300 50 H I L CNN "Height"
+F6 "621-SBRT3U60SAF-13" 450 -400 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/SBRT3U60SAF-13?qs=rN85NNvew%2FTN5dk%252B1NkkKw%3D%3D" 450 -500 50 H I L CNN "Mouser Price/Stock"
+F8 "Diodes Inc." 450 -600 50 H I L CNN "Manufacturer_Name"
+F9 "SBRT3U60SAF-13" 450 -700 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SK34A-SamacSys_Parts-DualPressure_V2-rescue
+#
+DEF SK34A-SamacSys_Parts-DualPressure_V2-rescue D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "SK34A-SamacSys_Parts-DualPressure_V2-rescue" 450 100 50 H V L CNN
+F2 "DIOM5126X230N" 450 0 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/SK34A.pdf" 450 -100 50 H I L CNN
+F4 "TAIWAN SEMICONDUCTOR - SK34A - DIODE, SCHOTTKY, 3A, 40V, SMA" 450 -200 50 H I L CNN "Description"
+F5 "2.3" 450 -300 50 H I L CNN "Height"
+F6 "821-SK34A" 450 -400 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Taiwan-Semiconductor/SK34A?qs=tHU%2FlV7kTyTipVMF4LfRPw%3D%3D" 450 -500 50 H I L CNN "Mouser Price/Stock"
+F8 "Taiwan Semiconductor" 450 -600 50 H I L CNN "Manufacturer_Name"
+F9 "SK34A" 450 -700 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library
