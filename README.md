@@ -1,7 +1,14 @@
-Adding kit to [VMCGUI](https://github.com/LSDRM/VMCGUI)
+List of available kits for [VMCGUI](https://github.com/LSDRM/VMCGUI)
 ===============
 
-To add a kit to VMCGUI, 
+Arduino based
+----------
+No arduino based kit has been developed yet.
 
-Here are given already developed kits for VMCGUI. You'll find a python file in each kit to append to the "APP/Kits" folder in your app repository, if you want to use the specified kit. You'll also find all informations for the hardware and documentation for the specified kit. When 
-In the desired kit folder, you'll find all informations to make the hardware of the desired kit.
+Customized
+----------
+- [DualPressure - Thermocouple / through UART protocol](https://github.com/LSDRM/DualPressure-Thermocouple_forVMCGUI) : A DAQ board embeding two pressure sensors and one thermocouple. Developed by @B137P107
+
+Raspberry Pi based
+----------
+No raspberry pi based kit has been developed yet.
