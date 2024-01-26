@@ -15,7 +15,7 @@ No raspberry pi based kit has been developed yet.
 
 Modules
 ----------
-- [USB to UART bridge](https://github.com/LSDRM/USBtoUART-module_forVMCGUI)
+- [USB to UART bridge](https://github.com/LSDRM/USBtoUART-module_forVMCGUI) : To allow a computer the communicate through an UART communication line, via its USB port. Developed by @B137P107
 
 Make your own kit
 =============
