@@ -1,21 +1,20 @@
-List of available kits for [VMCGUI](https://github.com/LSDRM/VMCGUI)
+Resources for [VMCGUI](https://github.com/LSDRM/VMCGUI)
 ===============
-
-Arduino based
 ----------
+## Kits
+### Arduino based :
 No arduino based kit has been developed yet.
 
-Customized
-----------
+### Customized :
 - [DualPressure - Thermocouple / through UART protocol](https://github.com/LSDRM/DualPressure-Thermocouple_forVMCGUI) : A DAQ board embeding two pressure sensors and one thermocouple. Developed by @B137P107
 
-Raspberry Pi based
-----------
+### Raspberry Pi based :
 No raspberry pi based kit has been developed yet.
 
-Modules
-----------
+-------
+## Modules
 - [USB to UART bridge](https://github.com/LSDRM/USBtoUART-module_forVMCGUI) : To allow a computer the communicate through an UART communication line, via its USB port. Developed by @B137P107
+--------
 
 Make your own kit
 =============
