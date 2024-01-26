@@ -13,6 +13,10 @@ Raspberry Pi based
 ----------
 No raspberry pi based kit has been developed yet.
 
+Modules
+----------
+- [USB to UART bridge](https://github.com/LSDRM/USBtoUART-module_forVMCGUI)
+
 Make your own kit
 =============
 This repository include a _#BlankKit.py_ file which is a base to start making your own kit, working with VMCGUI. Making your own kit requires a bit of electronical knowledge, especially if you want to do it by making your own DAQ board (i.e. without an Arduino or other ready-to-use DAQ board). Creating a new kit implies software and hardware development, the both parts are described below.
